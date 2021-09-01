@@ -13,6 +13,12 @@ body {
 .hero {
   background: #353535 !important;
 }
+.heroProj {
+  background: #353535 !important;
+}
+.bkgrnd2 {
+  background: #353535 !important;
+}
 .whitespace {
 
   width: 100%;
@@ -257,6 +263,32 @@ nav #menu li a:hover {
 
 @media (max-width: 768px) {
   .header h1 {
+    font-size: 26px;
+  }
+}
+
+.heroProj {
+  display: flex;
+  justify-content: left;
+  padding-top: 84px;
+  padding-left: 10px;
+}
+
+.hero2Proj h1 {
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: -2px;
+  line-height: 58px;
+}
+.hero2Proj h1 {
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: -2px;
+  line-height: 58px;
+}
+
+@media (max-width: 768px) {
+  .headerProj h1 {
     font-size: 26px;
   }
 }
